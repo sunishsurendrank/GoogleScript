@@ -11,7 +11,7 @@ function doPost(request){
   if(typeof request !== 'undefined')
 
   MailApp.sendEmail({
-     to: "sunishsurendrank@gmail.com",
+     to: "yourmailid@gmail.com",
      subject: "New Docker Image Uploaded to the repository "+reponame,
     htmlBody: "Hi Team,<br>"+
               "Please find the Details of the Docker Image uploaded to the repository "+reponame+"<br>"+
